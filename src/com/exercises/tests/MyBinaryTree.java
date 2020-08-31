@@ -1,6 +1,6 @@
 package com.exercises.tests;
 
-public class BinaryTree {
+public class MyBinaryTree {
 
     public void insert(TreeNode node, int d) {
        if(d == node.data) {
@@ -25,7 +25,7 @@ public class BinaryTree {
     public void traverseInOrder(TreeNode node) {
         if(node != null) {
             traverseInOrder(node.left);
-            System.out.println(node.data + ", ");
+            System.out.print(node.data + "[" + node.count + "], ");
             traverseInOrder(node.right);
         }
     }
