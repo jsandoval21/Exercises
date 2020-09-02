@@ -5,7 +5,8 @@ public class TestClasses {
     private static MyLinkedList myList;
 
     public static void main(String[] args) {
-/*      myList = new MyLinkedList();
+/*        //Test linked list
+        myList = new MyLinkedList();
         myList.add(5);
         myList.add(10);
         myList.add(15);
@@ -13,18 +14,24 @@ public class TestClasses {
         myList.add(40);
         myList.traverse();
         System.out.println(myList.search(10));*/
-/*        MyOrderedLinkedList myOrderList = new MyOrderedLinkedList();
 
-        myOrderList.add(20);
-        myOrderList.add(5);
-        myOrderList.add(6);
-        myOrderList.add(4);
-        myOrderList.add(8);
-        myOrderList.add(10);
-        myOrderList.traverse();
-        System.out.println(myOrderList.search(7));*/
+        // Test Ordered Linked List
+        MyOrderedLinkedList myOrderedList = new MyOrderedLinkedList();
+        myOrderedList.add(20);
+        myOrderedList.add(5);
+        myOrderedList.add(6);
+        myOrderedList.add(4);
+        myOrderedList.add(8);
+        myOrderedList.add(10);
+        myOrderedList.traverse();
+        System.out.println(myOrderedList.search(10));
+        myOrderedList.delete(4);
+        myOrderedList.traverse();
+        System.out.println(myOrderedList.search(4));
 
-        MyBinaryTree tree = new MyBinaryTree();
+
+        //Test binary trees
+/*        MyBinaryTree tree = new MyBinaryTree();
         TreeNode root = new TreeNode(15);
         tree.insert(root, 9);
         tree.insert(root, 9);
@@ -42,11 +49,9 @@ public class TestClasses {
         tree.traversePostOrder(root);
         System.out.println();
         tree.traversePreOrder(root);
-
-
-//        System.out.println(tree.searchValue(root, 9));
-//        System.out.println(tree.searchValue(root, 10));
-//        System.out.println(tree.searchValue(root, 15));
-//        System.out.println(tree.searchValue(root, 100));
+        System.out.println(tree.searchValue(root, 9));
+        System.out.println(tree.searchValue(root, 10));
+        System.out.println(tree.searchValue(root, 15));
+        System.out.println(tree.searchValue(root, 100));*/
     }
 }

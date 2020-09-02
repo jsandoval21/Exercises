@@ -26,6 +26,29 @@ public class MyOrderedLinkedList {
         }
     }
 
+    public void delete(int value) {
+        if(head.data == value)
+            head = head.next;
+        else {
+            Node prev = head;
+            Node cur = prev.next;
+
+            while(cur != null && cur.data != value) {
+                prev = prev.next;
+                cur = cur.next;
+            }
+
+            if(cur == null){
+                System.out.println("Value is not in list");
+            } else if(cur.next == null) {
+                prev.next = null;
+            } else {
+                prev.next = cur.next;
+                cur.next = null;
+            }
+        }
+    }
+
     public boolean search(int data) {
         Node cur = head;
         while(cur != null){
@@ -40,7 +63,10 @@ public class MyOrderedLinkedList {
     public void traverse () {
         Node cur = head;
         while(cur != null){
-            System.out.println(cur.data);
+            if(cur.next != null)
+                System.out.print(cur.data + " -> ");
+            else
+                System.out.println(cur.data);
             cur = cur.next;
         }
     }
