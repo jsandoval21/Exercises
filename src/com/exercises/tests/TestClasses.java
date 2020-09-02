@@ -31,10 +31,22 @@ public class TestClasses {
         tree.insert(root, 8);
         tree.insert(root, 20);
         tree.insert(root, 20);
-        tree.insert(root, 10);
+        tree.insert(root, 11);
         tree.insert(root, 23);
         tree.insert(root, 17);
-        tree.insert(root, 15);
+        tree.insert(root, 12);
+        tree.insert(root, 25);
+        tree.insert(root, 10);
         tree.traverseInOrder(root);
+        System.out.println();
+        tree.traversePostOrder(root);
+        System.out.println();
+        tree.traversePreOrder(root);
+
+
+//        System.out.println(tree.searchValue(root, 9));
+//        System.out.println(tree.searchValue(root, 10));
+//        System.out.println(tree.searchValue(root, 15));
+//        System.out.println(tree.searchValue(root, 100));
     }
 }

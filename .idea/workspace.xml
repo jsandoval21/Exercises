@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5761bd1-18a3-490d-950f-0244cc7fc7f4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Excercises/com/exercises/tests/MyLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Excercises/com/exercises/tests/MyLinkedList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Excercises/com/exercises/tests/MyOrderedLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Excercises/com/exercises/tests/MyOrderedLinkedList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Excercises/com/exercises/tests/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Excercises/com/exercises/tests/Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Excercises/com/exercises/tests/TestClasses.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Excercises/com/exercises/tests/TestClasses.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/exercises/tests/MyBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/exercises/tests/MyBinaryTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/exercises/tests/TestClasses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/exercises/tests/TestClasses.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/exercises/tests/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/exercises/tests/TreeNode.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,26 +78,26 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2472" y="178" key="#Project_Structure/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1598832940392" />
-    <state width="1860" height="279" key="GridCell.Tab.0.bottom" timestamp="1598841153703">
+    <state width="1860" height="279" key="GridCell.Tab.0.bottom" timestamp="1599022589679">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1598770054678" />
-    <state width="1860" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1598841153703" />
-    <state width="1860" height="279" key="GridCell.Tab.0.center" timestamp="1598841153703">
+    <state width="1860" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1599022589679" />
+    <state width="1860" height="279" key="GridCell.Tab.0.center" timestamp="1599022589679">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1598770054678" />
-    <state width="1860" height="279" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1598841153703" />
-    <state width="1860" height="279" key="GridCell.Tab.0.left" timestamp="1598841153703">
+    <state width="1860" height="279" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1599022589679" />
+    <state width="1860" height="279" key="GridCell.Tab.0.left" timestamp="1599022589679">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1598770054678" />
-    <state width="1860" height="279" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1598841153703" />
-    <state width="1860" height="279" key="GridCell.Tab.0.right" timestamp="1598841153703">
+    <state width="1860" height="279" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1599022589679" />
+    <state width="1860" height="279" key="GridCell.Tab.0.right" timestamp="1599022589679">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1598770054678" />
-    <state width="1860" height="279" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1598841153703" />
+    <state width="1860" height="279" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1599022589679" />
     <state width="1237" height="204" key="GridCell.Tab.1.bottom" timestamp="1598769022355">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -120,10 +114,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1237" height="204" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1598769022355" />
-    <state x="2426" y="252" key="com.intellij.ide.util.TipDialog" timestamp="1598840942275">
+    <state x="2426" y="252" key="com.intellij.ide.util.TipDialog" timestamp="1599007163167">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="337" y="165" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1598761454379" />
-    <state x="2426" y="252" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1598840942275" />
+    <state x="2426" y="252" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1599007163167" />
   </component>
 </project>
