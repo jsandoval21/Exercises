@@ -20,7 +20,6 @@ public class MyLinkedList {
                  return true;
              cur = cur.next;
          }
-
          return false;
     }
 

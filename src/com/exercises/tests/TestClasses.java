@@ -5,6 +5,19 @@ public class TestClasses {
     private static MyLinkedList myList;
 
     public static void main(String[] args) {
+        //Test Stacks and Queues
+        Stack myStack = new Stack();
+        myStack.push(5);
+        myStack.push(10);
+        myStack.push(8);
+        myStack.push(9);
+        System.out.println(myStack.peek());
+        System.out.println(myStack.pop());
+        System.out.println(myStack.peek());
+        System.out.println(myStack.size());
+        System.out.println(myStack.searchStack(9));
+
+
 /*        //Test linked list
         myList = new MyLinkedList();
         myList.add(5);
@@ -31,7 +44,7 @@ public class TestClasses {
 
 
         //Test binary trees
-        MyBinaryTree tree = new MyBinaryTree();
+        /*MyBinaryTree tree = new MyBinaryTree();
         TreeNode root = new TreeNode(15);
         tree.insert(root, 9);
         tree.insert(root, 8);
@@ -58,8 +71,7 @@ public class TestClasses {
         tree.deleteNode(root, null,8);
 
         System.out.println("After delete: ");
-        tree.traverseInOrder(root);
-        //System.out.println();
+        tree.traverseInOrder(root);*/
 
 //        tree.traversePostOrder(root);
 //        System.out.println();
