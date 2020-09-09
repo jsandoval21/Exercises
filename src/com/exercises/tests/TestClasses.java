@@ -5,8 +5,23 @@ public class TestClasses {
     private static MyLinkedList myList;
 
     public static void main(String[] args) {
+        //Test double ended doubly-linked list
+        DELinkedList myList = new DELinkedList();
+        myList.insert(5);
+        myList.insert(4);
+        myList.insert(10);
+        myList.insertLast(22);
+        myList.insertLast(23);
+        myList.insertLast(15);
+        myList.delete();
+        myList.deleteLast();
+
+
+        myList.displayForward();
+
+
         //Test Stacks and Queues
-        Stack myStack = new Stack();
+/*        Stack myStack = new Stack();
         myStack.push(5);
         myStack.push(10);
         myStack.push(8);
@@ -15,7 +30,7 @@ public class TestClasses {
         System.out.println(myStack.pop());
         System.out.println(myStack.peek());
         System.out.println(myStack.size());
-        System.out.println(myStack.searchStack(9));
+        System.out.println(myStack.searchStack(5));*/
 
 
 
