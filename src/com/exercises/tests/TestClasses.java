@@ -5,8 +5,25 @@ public class TestClasses {
     private static MyLinkedList myList;
 
     public static void main(String[] args) {
+        //Test a queue
+        Queue myQueue = new Queue();
+        myQueue.push(5);
+        myQueue.push(4);
+        myQueue.push(10);
+        myQueue.push(1);
+        myQueue.push(11);
+        myQueue.push(15);
+
+        while(!myQueue.isEmpty()){
+            System.out.println("Queue size: " + myQueue.size());
+            System.out.print("Next in queue: ");
+            myQueue.front();
+            myQueue.pop();
+        }
+        System.out.println("Queue size: " + myQueue.size());
+
         //Test double ended doubly-linked list
-        DELinkedList myList = new DELinkedList();
+        /*DELinkedList myList = new DELinkedList();
         myList.insert(5);
         myList.insert(4);
         myList.insert(10);
@@ -18,6 +35,7 @@ public class TestClasses {
 
 
         myList.displayForward();
+        myList.displayBackward();*/
 
 
         //Test Stacks and Queues

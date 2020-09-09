@@ -57,8 +57,22 @@ public class DELinkedList {
     public void displayForward() {
         DLNode cur = head;
         while (cur != null) {
-            System.out.println(cur.value);
+            if (cur.next != null)
+                System.out.print(cur.value + "->");
+            else
+                System.out.println(cur.value);
             cur = cur.next;
+        }
+    }
+
+    public void displayBackward() {
+        DLNode cur = tail;
+        while (cur != null) {
+            if (cur.prev != null)
+                System.out.print(cur.value + "->");
+            else
+                System.out.println(cur.value);
+            cur = cur.prev;
         }
     }
 }
